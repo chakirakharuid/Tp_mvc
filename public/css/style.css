@@ -1,0 +1,50 @@
+.carte{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.img{
+     transition: all .6s ease-in-out;
+}
+.img:hover{
+  transform: scale(1.5);  
+}
+footer{
+    height: 80px;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+ 
+}
+footer>a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.header a {
+    color:orangered !important;
+}
+.header>ul{
+   display: flex;
+   justify-content: space-around;
+   
+}
+.hauteur img{
+max-height: 600px;
+
+}
+
+.header>ul:hover {
+text-decoration: underline;
+
+}
+
+.annonce{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
